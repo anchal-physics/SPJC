@@ -2,6 +2,7 @@ name: Send emails
 on:
   schedule:
     - cron: '30 22 * * 2'
+  workflow_dispatch:
 
 jobs:
   fetch:
